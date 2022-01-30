@@ -13,17 +13,24 @@ This is for those of you who want to update the firmware on the D1P or change th
 
 1. Download the files from this repository.
 2. Download QMK Toolbox from [the Github](https://github.com/qmk/qmk_toolbox/releases) for your specific OS (e.g. MacOS, Windows).
-3. Grab your D1P, plug it into your computer, **turn off the D1P LEDs**. If you have not yet flashed the D1P, use "..-..-" to turn off the LEDs. Unplug your D1P. ![flash3](tutorial_img/flash_img/flash3.jpg)
-4. Open QMK Toolbox. ![flash4](tutorial_img/flash_img/flash4.png)
-5. Under the **MCU (AVR only)** dropdown in the top right corner, select **ATMega32u2**. ![flash5](tutorial_img/flash_img/flash5.png)
-6. Check the **Auto-Flash** box in the top right. ![flash6](tutorial_img/flash_img/flash6.png)
-7. To the right of the **Local file** dropdown, click the **Open** button. ![flash7a](tutorial_img/flash_img/flash7a.png)  
+3. Grab your D1P, plug it into your computer, **turn off the D1P LEDs**. If you have not yet flashed the D1P, use "..-..-" to turn off the LEDs. Unplug your D1P.  
+![flash3](tutorial_img/flash_img/flash3.jpg)
+4. Open QMK Toolbox.  
+![flash4](tutorial_img/flash_img/flash4.png)
+5. Under the **MCU (AVR only)** dropdown in the top right corner, select **ATMega32u2**.  
+![flash5](tutorial_img/flash_img/flash5.png)
+6. Check the **Auto-Flash** box in the top right.  
+![flash6](tutorial_img/flash_img/flash6.png)
+7. To the right of the **Local file** dropdown, click the **Open** button.    
+![flash7a](tutorial_img/flash_img/flash7a.png)  
 Navigate to and select one of the hex files from this repository.  
 ![flash7b](tutorial_img/flash_img/flash7b.png)
-8. Remove the keycap, switch, and plate from the D1P. Plug in the D1P and orient it such that the USB cable leads away from you. ![flash8](tutorial_img/flash_img/flash8.jpg)
-9. Using a pair of metal tweezers or a bent paperclip, touch the two pads in the bottom left corner of the circuit board where it says "Short Pads to Reset". ![flash9](tutorial_img/flash_img/flash9.jpg)
-10. QMK Toolbox should automatically detect that the D1P is in DFU mode and flash your D1P. ![flash10](tutorial_img/flash_img/flash10.png)
-
+8. Remove the keycap, switch, and plate from the D1P. Plug in the D1P and orient it such that the USB cable leads away from you.  
+![flash8](tutorial_img/flash_img/flash8.jpg)
+9. Using a pair of metal tweezers or a bent paperclip, touch the two pads in the bottom left corner of the circuit board where it says "Short Pads to Reset".  
+![flash9](tutorial_img/flash_img/flash9.jpg)
+10. QMK Toolbox should automatically detect that the D1P is in DFU mode and flash your D1P.  
+![flash10](tutorial_img/flash_img/flash10.png)
 ## VIA Tutorial
 For those of you who want to be able to change the D1P keymap on the fly, use VIA!
 
