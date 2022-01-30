@@ -1,7 +1,7 @@
 # How to use with VIA
 
 1. Flash the keyboard with **plip_adelie_ortho_via.hex**.
-2. Open VIA, navigate to the **Settings** tab. Turn on the **Show Desgin tab** switch.
+2. Open VIA, navigate to the **Settings** tab. Turn on the **Show Design tab** switch.
 3. Navigate to the **Design** tab. Load the **adelie_ortho.json** file.
 4. Navigate to the **Configure** tab.
 5. The Adélie Ortho keymap is ready to be configured.
