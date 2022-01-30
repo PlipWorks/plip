@@ -1,4 +1,5 @@
 # D1P: The Morse code key(board)!
+![d1p_flowers](d1p_flowers.jpg)
 
 ## A few things to note
 
