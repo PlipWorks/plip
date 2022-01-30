@@ -2,6 +2,6 @@
 
 Cajal-inspired numpad with Macros
 
-![cajalesque](cajalesque)
+![cajalesque](cajalesque.JPG)
 
-![handwired](handwired.jpg)
+![handwired](handwired.JPG)
