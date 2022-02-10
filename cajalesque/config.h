@@ -27,21 +27,20 @@
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 6
 
-#define MATRIX_ROW_PINS { D0, D4, C6, D7, E6 }
-#define MATRIX_COL_PINS { D1, F5, F6, F7, B1, B3 }
+#define MATRIX_ROW_PINS { C6, D7, E6, B4, B5 }
+#define MATRIX_COL_PINS { D4, D0, F5, F6, F7, B2 }
 #define UNUSED_PINS
 
 #define RGB_DI_PIN F4
-#define DRIVER_LED_TOTAL 27
 // #define RGBLED_NUM 27
+#define DRIVER_LED_TOTAL 27
+#define RGBLIGHT_ANIMATIONS
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-/* RGB default settings */
-// #define RGBLIGHT_VAL_STEP 19
-// #define RGBLIGHT_LIMIT_VAL 190
-// #define RGB_DEFAULT_VAL 0
-
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
+
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0

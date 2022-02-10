@@ -2,7 +2,7 @@
   "name": "Beta 28",
   "vendorId": "0x5057",
   "productId": "0x0028",
-  "lighting": "none",
+  "lighting": "qmk_rgblight",
   "matrix": { "rows": 3, "cols": 10 },
   "layouts": {
     "keymap": [

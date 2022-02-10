@@ -19,7 +19,7 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x5057
-#define PRODUCT_ID      0x0029
+#define PRODUCT_ID      0x0028
 #define DEVICE_VER		  0x0000
 #define MANUFACTURER    PLIP Works
 #define PRODUCT         Beta 28
@@ -27,9 +27,13 @@
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 10
 
-#define MATRIX_ROW_PINS { D3, D4, D5 }
-#define MATRIX_COL_PINS { D2, D1, D0, C2, B3, B2, B1, B0, D6, D7 }
+#define MATRIX_ROW_PINS { D1, D7, E6 }
+#define MATRIX_COL_PINS { B4, B5, B6, B2, B3, B1, F7, F6, F5, F4 }
 #define UNUSED_PINS
+
+#define RGB_DI_PIN D0
+#define RGBLED_NUM 28
+#define RGBLIGHT_ANIMATIONS
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -37,10 +41,8 @@
 #define COMBO_COUNT 35
 #define COMBO_TERM 35
 
-/* RGB default settings */
-// #define RGBLIGHT_VAL_STEP 19
-// #define RGBLIGHT_LIMIT_VAL 190
-// #define RGB_DEFAULT_VAL 0
-
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
+
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0
