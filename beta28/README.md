@@ -3,10 +3,10 @@
   
 ![](img/rainbow.jpg)
   
-### Sneak peek of the insides
+## Sneak peek of the insides
 
 ![](img/back_top.jpg)
   
-![](img/back_iso.jpg)
+![](img/back_iso.JPG)
   
 ![](img/case.jpg)
