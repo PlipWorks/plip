@@ -33,13 +33,12 @@
 
 #define RGB_DI_PIN D0
 #define RGBLED_NUM 28
-#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
-
-// #define COMBO_COUNT 35
-// #define COMBO_TERM 35
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
