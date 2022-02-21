@@ -11,7 +11,7 @@ MCU = atmega32u4
 #   ATmega328P   USBasp
 BOOTLOADER = caterina
 
-EXTRAKEY_ENABLE 	= no
+EXTRAKEY_ENABLE 	= yes
 NKRO_ENABLE 		= yes
 COMBO_ENABLE = yes
 RGBLIGHT_ENABLE = yes

@@ -1,0 +1,61 @@
+Hope the Beta28 isn't too late to join the Lunar New Year Party!
+
+
+
+
+Renders
+
+Prototype
+
+
+
+
+About
+
+The Beta28 is a premium, compact 28-key keyboard with an ISO "P-key". For the Year of the Tiger, the Beta28 gets a red and gold colorway and two fang-like badges adorning its corners.
+
+
+
+
+Features
+
+- Material and Colors:
+
+- Upper Housing: Anodized Red Aluminum 6063
+
+- Bottom Housing: Satin Finished Brass 260
+
+- Plate: Satin Finished Brass 260
+
+- Badges: Mirror Polished Brass 260
+
+- Mute: Translucent Silicone
+
+- Case Foam: Poron
+
+- Layout: Keyboard Layout Editor (keyboard-layout-editor.com) http://www.keyboard-layout-editor.com/##@@=Q&=W&=E&=R&=T&=Y&=U&=I&=O&_x:0.25&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=P%3B&@_x:0.25%3B&=A&=S&=D&=F&=G&=H&=J&=K&=L%3B&@_x:0.75%3B&=Shift%0AZ&=Ctrl%0AX&=Gui%0AC&=MO(1)%0AV&=MO(2)%0AB&=MO(3)%0AN&=Alt%0AM&=Ctrl%0ASpace&=Shift%0AEnter%3B&@_y:0.25%3B&=Esc&_a:7%3B&=&=&=&=&_a:4%3B&=%2F_%0A-&=+%0A%2F=&=%7B%0A%5B&=%7D%0A%5D&_x:0.25&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=Enter%3B&@_x:0.25%3B&=Tab&_a:7%3B&=&=&=&=&=&_a:4%3B&=%2F:%0A%2F%3B&=%22%0A'&=%7C%0A%5C%3B&@_x:0.75&a:7%3B&=&=&=&=&=&=&_a:4%3B&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F%3B&@_y:0.25%3B&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=(%0A9&_x:0.25&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=)%0A%0A%0A%0A%0A%0A0%3B&@_x:0.25&a:7%3B&=&=&=&=&=&=&=&=%E2%86%91&_a:4%3B&=Shift%3B&@_x:0.75&a:7%3B&=&=&=&=&=&=&=%E2%86%90&=%E2%86%93&=%E2%86%92%3B&@_y:0.25&a:4%3B&=RGB%0A%0A%0A%0A%0A%0AMode+&=Effect%0A%0A%0A%0A%0A%0ASp+&=Hue+&=Sat+&=Bright+&_a:7%3B&=&=&=&_a:4%3B&=Del&_x:0.25&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=Bksp%3B&@_x:0.25%3B&=RGB%0A%0A%0A%0A%0A%0AMode-&=Effect%0A%0A%0A%0A%0A%0ASp-&=Hue-&=Sat-&=Bright-&_a:7%3B&=&=&=&=%3B&@_x:0.75&a:4%3B&=RGB%0A%0A%0A%0A%0A%0AToggle&_a:7%3B&=&=&=&=&=&=&=&=
+
+- Mount: Top Gasket Mount
+
+- Weight: 0.76kg / 1.68lbs - fully built
+
+- Typing Angle: 7.5°
+
+- PCB: Beta28 designed by PLIP Works
+
+- Hotswap: Kailh Hotswap Sockets
+
+- LEDs: Per-Key RGB LEDs
+
+- Port: USB-C Daughterboard
+
+- Firmware: Pre-flashed with Vial, QMK and VIA compatible
+
+
+
+
+GB Details:
+
+- Price: $250
+
+- This will be a privately run groupbuy. I would like to 
