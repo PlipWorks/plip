@@ -2,9 +2,9 @@
   
 ![](img/front_angle.png)
   
-![](img/back_angle.jpg)
+![](img/back_angle.png)
   
-![](img/bottom_angle.jpg)
+![](img/bottom_angle.png)
   
 ## Prototype
   
