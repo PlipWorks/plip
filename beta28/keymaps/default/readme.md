@@ -1,6 +1,4 @@
-# Beta 28
-
-### Base Layer
+# Beta28 Base Layer
 ```
 ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
 │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │
