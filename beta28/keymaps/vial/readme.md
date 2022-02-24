@@ -1,5 +1,5 @@
 # Beta 28
 
-### Base Layer
+### Default Layers
   
 ![](../../img/beta28_layout.png)
