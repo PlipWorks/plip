@@ -1,5 +1,3 @@
-# Beta 28
-
-### Default Layers
+# Beta28 Default Layers
   
 ![](../../img/beta28_layout.png)
