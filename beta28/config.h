@@ -27,8 +27,8 @@
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 10
 
-#define MATRIX_ROW_PINS { D1, D7, E6 }
-#define MATRIX_COL_PINS { B4, B5, B6, B2, B3, B1, F7, F6, F5, F4 }
+#define MATRIX_ROW_PINS { B4, B3, C2 }
+#define MATRIX_COL_PINS { B2, B1, B0, D6, D5, D4, D3, D2, D1, B5 }
 #define UNUSED_PINS
 
 #define RGB_DI_PIN D0
