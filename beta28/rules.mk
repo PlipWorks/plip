@@ -1,5 +1,5 @@
 # MCU name
-MCU = atmega32u4
+MCU = atmega32u2
 
 # Bootloader selection
 #   Teensy       halfkay
@@ -9,7 +9,7 @@ MCU = atmega32u4
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = caterina
+BOOTLOADER = atmel-dfu
 
 EXTRAKEY_ENABLE 	= yes
 NKRO_ENABLE 		= yes
