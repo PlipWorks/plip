@@ -2,8 +2,8 @@
     "keyboard_name": "Kara Ortho",
     "url": "https://plip.works/",
     "maintainer": "PLIP Works",
-    "width": 10,
-    "height": 3,
+    "width": 15,
+    "height": 5,
     "layouts": {
         "LAYOUT": {
             "layout": [
