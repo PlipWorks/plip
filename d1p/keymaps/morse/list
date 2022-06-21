@@ -78,12 +78,12 @@
 000111
 001000 paste ctrl-v
 001001 toggle RGB on/off
-001010 step RGB animation
-001011
+001010 step+ RGB animation
+001011 step- RGB animation
 001100 ?
-001101 increase brightness
-001110 decrease brightness
-001111
+001101
+001110 increment brightness
+001111 decrement brightness
 010000 cut ctrl-x
 010001
 010010 "
@@ -93,8 +93,8 @@
 010110
 010111
 011000
-011001
-011010
+011001 increment hue
+011010 decrement hue
 011011
 011100
 011101
@@ -102,8 +102,8 @@
 011111
 100000 copy ctrl-c
 100001
-100010
-100011
+100010 increment saturation
+100011 decrement saturation
 100100
 100101
 100110

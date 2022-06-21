@@ -77,6 +77,14 @@ Redo CTRL+Y ....-.
 Save CTRL+S .....-
 
 Toggle RGB ..-..-
+Step+ RGB ..-.-.
+Step- RGB ..-.--
+Brightness+ ..---.
+Brightness- ..----
+Hue+ .--..-
+Hue- .--.-.
+Saturation+ -...-.
+Saturation- -...--
 
 Slow ........
 Fast .......-

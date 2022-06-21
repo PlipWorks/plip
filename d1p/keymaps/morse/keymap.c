@@ -366,17 +366,48 @@ void morseToKC(char morse[]) {
     rgblight_toggle();
   }
   else if(strcmp(morse, "..-.-.") == 0) {
-    if (rgblight_get_mode() == (RGBLIGHT_MODE_RAINBOW_MOOD + 2)) {
+    if (rgblight_get_mode() == RGBLIGHT_MODE_STATIC_LIGHT) {
+      rgblight_mode(RGBLIGHT_MODE_BREATHING + 1);
+    } else if (rgblight_get_mode() == (RGBLIGHT_MODE_BREATHING + 1)) {
+      rgblight_mode(RGBLIGHT_MODE_BREATHING + 3);
+    } else if (rgblight_get_mode() == (RGBLIGHT_MODE_BREATHING + 3)) {
+      rgblight_mode(RGBLIGHT_MODE_RAINBOW_MOOD + 2);
+    } else if (rgblight_get_mode() == (RGBLIGHT_MODE_RAINBOW_MOOD + 2)) {
       rgblight_mode(RGBLIGHT_MODE_RAINBOW_SWIRL + 5);
     } else {
-      rgblight_mode(RGBLIGHT_MODE_RAINBOW_MOOD + 2);
+      rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
     }
   }
-  else if(strcmp(morse, "..--.-") == 0) {
+  else if(strcmp(morse, "..-.--") == 0) {
+    if (rgblight_get_mode() == RGBLIGHT_MODE_STATIC_LIGHT) {
+      rgblight_mode(RGBLIGHT_MODE_RAINBOW_SWIRL + 5);
+    } else if (rgblight_get_mode() == (RGBLIGHT_MODE_RAINBOW_SWIRL + 5)) {
+      rgblight_mode(RGBLIGHT_MODE_RAINBOW_MOOD + 2);
+    } else if (rgblight_get_mode() == (RGBLIGHT_MODE_RAINBOW_MOOD + 2)) {
+      rgblight_mode(RGBLIGHT_MODE_BREATHING + 3);
+    } else if (rgblight_get_mode() == (RGBLIGHT_MODE_BREATHING + 3)) {
+      rgblight_mode(RGBLIGHT_MODE_BREATHING + 1);
+    } else {
+      rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
+    }
+  }
+  else if(strcmp(morse, "..---.") == 0) { //increase brightness
     rgblight_increase_val();
   }
-  else if(strcmp(morse, "..---.") == 0) {
+  else if(strcmp(morse, "..----") == 0) { //decrease brightness
     rgblight_decrease_val();
+  }
+  else if(strcmp(morse, ".--..-") == 0) { //increment hue
+    rgblight_increase_hue();
+  }
+  else if(strcmp(morse, ".--.-.") == 0) { //decrement hue
+    rgblight_decrease_hue();
+  }
+  else if(strcmp(morse, "-...-.") == 0) { //increment saturation
+    rgblight_increase_sat();
+  }
+  else if(strcmp(morse, "-...--") == 0) { //decrement saturation
+    rgblight_decrease_sat();
   }
 
   //custom
