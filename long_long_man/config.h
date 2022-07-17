@@ -19,20 +19,20 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x5057
-#define PRODUCT_ID      0x776C
+#define PRODUCT_ID      0x6C6D
 #define DEVICE_VER		  0x0000
 #define MANUFACTURER    PLIP Works
-#define PRODUCT         Wide Load
+#define PRODUCT         Long Long Man
 
-#define MATRIX_ROWS 4
-#define MATRIX_COLS 26
+#define MATRIX_ROWS 5
+#define MATRIX_COLS 24
 
-#define MATRIX_ROW_PINS { D2, F0, C1, D4 }
-#define MATRIX_COL_PINS { D3, D5, D6, D7, E0, E1, C0, C2, C3, C4, C5, C6, C7, A7, A6, A5, A4, A3, A2, A1, F6, F5, F4, F3, F2, F1 }
+#define MATRIX_ROW_PINS { B2, B3, C0, C1, C2}
+#define MATRIX_COL_PINS { E1, E0, D7, D6, D5, D4, D3, D2, D1, D0, F0, F1, F2, F3, F4, F5, F6, F7, A0, A1, A2, A3, A4, A5 }
 #define UNUSED_PINS
 
-#define ENCODERS_PAD_A { A0 }
-#define ENCODERS_PAD_B { F7 }
+#define ENCODERS_PAD_A { E6 }
+#define ENCODERS_PAD_B { E7 }
 #define ENCODER_DIRECTION_FLIP
 
 
