@@ -40,6 +40,7 @@ As long as VID doesn't interfere with existing USB VID, then you're fine.*/
 #define RGBLIGHT_EFFECT_RAINBOW_MOOD
 #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
 // #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_MOOD + 2
+#define RGBLIGHT_DEFAULT_VAL 0
 #define RGBLED_NUM 2
 
 /* COL2ROW, ROW2COL*/
