@@ -5,6 +5,11 @@
   "lighting": "none",
   "matrix": { "rows": 5, "cols": 24 },
   "layouts": {
+    "labels": [
+      "6.25u Spacebar",
+      "Split Numpad + and Enter",
+      "Split Numpad 0"
+    ],
     "keymap": [
       [
         {
