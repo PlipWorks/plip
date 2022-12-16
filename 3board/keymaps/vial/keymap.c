@@ -15,9 +15,29 @@
 */
 #include QMK_KEYBOARD_H
 
+enum custom_keycodes {
+    STOV = SAFE_RANGE,
+};
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+    case STOV:
+        if (record->event.pressed) {
+			// when keycode STOV is pressed
+            tap_code_delay(KC_LGUI, 500);
+            SEND_STRING("stackoverflow.com");
+			tap_code_delay(KC_ENTER, 500);
+        } else {
+            // when keycode STOV is released
+        }
+        break;
+    }
+    return true;
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[0] = LAYOUT(
-		_______, _______, _______
+		STOV, KC_COPY, KC_PASTE
   ),
 
 	[1] = LAYOUT(
