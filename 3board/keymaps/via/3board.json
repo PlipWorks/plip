@@ -1,0 +1,21 @@
+{
+  "name": "3board",
+  "vendorId": "0x5057",
+  "productId": "0x3342",
+  "lighting": "none",
+  "matrix": { "rows": 1, "cols": 3 },
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 0.5
+        },
+        "0,0"
+      ],
+      [
+        "0,1",
+        "0,2"
+      ]
+    ]
+  }
+}
