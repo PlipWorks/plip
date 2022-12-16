@@ -16,28 +16,48 @@
 #include QMK_KEYBOARD_H
 
 enum custom_keycodes {
-    STOV = SAFE_RANGE,
+    WINSTOV = SAFE_RANGE,
+	MACSTOV
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
-    case STOV:
+    case WINSTOV:
         if (record->event.pressed) {
-			// when keycode STOV is pressed
+			// when keycode is pressed
             tap_code(KC_LGUI);
-            SEND_STRING(SS_DELAY(500) "https://github.com/PlipWorks/plip/blob/main/3board/README.md" SS_DELAY(500));
+            SEND_STRING(SS_DELAY(200) "https://github.com/PlipWorks/plip/blob/main/3board/README.md" SS_DELAY(200));
 			tap_code(KC_ENTER);
         } else {
-            // when keycode STOV is released
+            // when keycode is released
         }
         break;
-    }
+
+	case MACSTOV:
+        if (record->event.pressed) {
+			// when keycode is pressed
+			register_code(KC_LGUI);
+			tap_code(KC_SPACE);
+			unregister_code(KC_LGUI);
+            SEND_STRING(SS_DELAY(200) "safari" SS_DELAY(200));
+			tap_code(KC_ENTER);
+			SEND_STRING(SS_DELAY(200));
+			register_code(KC_LGUI);
+			tap_code(KC_L);
+			unregister_code(KC_LGUI);
+			SEND_STRING(SS_DELAY(200) "https://github.com/PlipWorks/plip/blob/main/3board/README.md" SS_DELAY(200));
+			tap_code(KC_ENTER);
+        } else {
+            // when keycode is released
+        }
+        break;
+	}
     return true;
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[0] = LAYOUT(
-		STOV, KC_COPY, KC_PASTE
+		KC_F, MACSTOV, WINSTOV
   ),
 
 	[1] = LAYOUT(
