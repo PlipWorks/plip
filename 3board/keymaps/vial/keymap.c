@@ -24,9 +24,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case STOV:
         if (record->event.pressed) {
 			// when keycode STOV is pressed
-            tap_code_delay(KC_LGUI, 500);
-            SEND_STRING("stackoverflow.com");
-			tap_code_delay(KC_ENTER, 500);
+            tap_code(KC_LGUI);
+            SEND_STRING(SS_DELAY(500) "stackoverflow.com" SS_DELAY(500));
+			tap_code(KC_ENTER);
         } else {
             // when keycode STOV is released
         }
