@@ -25,7 +25,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         if (record->event.pressed) {
 			// when keycode STOV is pressed
             tap_code(KC_LGUI);
-            SEND_STRING(SS_DELAY(500) "stackoverflow.com" SS_DELAY(500));
+            SEND_STRING(SS_DELAY(500) "https://github.com/PlipWorks/plip/blob/main/3board/README.md" SS_DELAY(500));
 			tap_code(KC_ENTER);
         } else {
             // when keycode STOV is released
