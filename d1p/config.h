@@ -24,7 +24,6 @@ As long as VID doesn't interfere with existing USB VID, then you're fine.*/
 #define DEVICE_VER      0x0000
 #define MANUFACTURER    PLIP Works
 #define PRODUCT         D1P
-#define DESCRIPTION     D1P
 
 /* key matrix size */
 #define MATRIX_ROWS 1
@@ -32,7 +31,6 @@ As long as VID doesn't interfere with existing USB VID, then you're fine.*/
 
 #define MATRIX_ROW_PINS { B7 }
 #define MATRIX_COL_PINS { D2 }
-#define UNUSED_PINS
 
 #define RGB_DI_PIN C5
 #undef RGBLED_NUM

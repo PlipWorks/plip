@@ -1,4 +1,4 @@
-/* Copyright 2021 PLIP Works
+/* Copyright 2022 PLIP Works
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -27,11 +27,13 @@
 #define MATRIX_ROWS 1
 #define MATRIX_COLS 3
 
-#define DIRECT_PINS { C5, D5, D4 }
-#define UNUSED_PINS
+// #define MATRIX_ROW_PINS { B7 }
+// #define MATRIX_COL_PINS { C5, D5, D4 }
+
+#define DIRECT_PINS { { C5, D5, D4 } }
 
 /* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION COL2ROW
+// #define DIODE_DIRECTION COL2ROW
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
