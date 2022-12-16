@@ -18,7 +18,7 @@ Enjoy!
 If you want to make shortcuts to websites, navigate to the Macros tab in the top left and re-create the following.
 
 #### For Windows
-<img src="img/stov_macro.png" width="700">
+<img src="img/stov_macro_win.png" width="700">
 
 #### For Mac
-I haven't figured out a robust way to do this yet...
+<img src="img/stov_macro_mac.png" width="700">
