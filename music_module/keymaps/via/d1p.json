@@ -1,0 +1,15 @@
+{
+  "name": "D1P",
+  "vendorId": "0x5057",
+  "productId": "0x0001",
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "keycodes": "qmk"
+  },
+  "matrix": { "rows": 1, "cols": 1 },
+  "layouts": {
+    "keymap": [
+      ["0,0"]
+    ]
+  }
+}

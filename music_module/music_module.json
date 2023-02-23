@@ -1,0 +1,12 @@
+{
+  "name": "Music Module",
+  "vendorId": "0x5057",
+  "productId": "0x6262",
+  "lighting": "none",
+  "matrix": { "rows": 1, "cols": 1 },
+  "layouts": {
+    "keymap": [
+      ["0,0"]
+    ]
+  }
+}
