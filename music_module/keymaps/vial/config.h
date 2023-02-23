@@ -1,4 +1,4 @@
-/* Copyright 2021 PLIP Works
+/* Copyright 2023 PLIP Works
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,4 +15,4 @@
  */
  #pragma once
 
-#define VIAL_KEYBOARD_UID {0x58, 0x8A, 0x2C, 0x45, 0x10, 0xA8, 0x41, 0x33}
+#define VIAL_KEYBOARD_UID {0x31, 0x19, 0x8D, 0xA3, 0x90, 0x4F, 0x8B, 0x0E}

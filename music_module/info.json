@@ -1,12 +1,24 @@
 {
-    "keyboard_name": "D1P",
-    "url": "https://plip.works",
-    "maintainer": "PLIP Works",
-    "width": 1,
-    "height": 1,
-    "layouts": {
-      "LAYOUT": {
-          "layout": [{"label":"Space", "x":0, "y":0}]
-      }
+  "keyboard_name": "Music Module",
+  "manufacturer": "PLIP Works",
+  "url": "https://plip.works",
+  "maintainer": "PlipWorks",
+  "usb": {
+    "vid": "0x5057",
+    "pid": "0x6262",
+    "device_version": "1.0.0"
+  },
+  "debounce": 5,
+  "layouts": {
+    "LAYOUT_onekey": {
+      "layout": [
+        { "x": 0, "y": 0, "label": "", "matrix": [0, 0] }
+      ]
     }
+  },
+  "matrix_pins": {
+    "direct": [
+        ["GP3"]
+    ]
+  }
 }
