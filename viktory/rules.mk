@@ -1,5 +1,5 @@
 # MCU name
-MCU = at90usb646
+# MCU = at90usb646
 
 # Bootloader selection
 #   Teensy       halfkay
@@ -9,21 +9,22 @@ MCU = at90usb646
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = atmel-dfu
+# BOOTLOADER = atmel-dfu
 
 # Build Options
 #   change yes to no to disable
-#
-LTO_ENABLE = yes
 
-BOOTMAGIC_ENABLE = yes     # Virtual DIP switch configuration
-MOUSEKEY_ENABLE = yes      # Mouse keys
-EXTRAKEY_ENABLE = yes       # Audio control and System control
-CONSOLE_ENABLE = no         # Console for debug
-COMMAND_ENABLE = no         # Commands for debug and configuration
-NKRO_ENABLE = yes            # USB Nkey Rollover
-BACKLIGHT_ENABLE = no      # Enable keyboard backlight functionality
-RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
-MIDI_ENABLE = no            # MIDI support
-BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
-AUDIO_ENABLE = no           # Audio output on port C6
+# LTO_ENABLE = yes
+# BOOTMAGIC_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+CONSOLE_ENABLE = no
+COMMAND_ENABLE = no
+# NKRO_ENABLE = yes
+BACKLIGHT_ENABLE = no
+RGBLIGHT_ENABLE = yes
+MIDI_ENABLE = no
+BLUETOOTH_ENABLE = no
+AUDIO_ENABLE = no
+
+ENCODER_MAP_ENABLE = yes
