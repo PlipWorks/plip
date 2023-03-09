@@ -13,7 +13,7 @@
     "processor": "at90usb646",
     "bootmagic": {
       "enabled": true,
-      "matrix": [0, 4]
+      "matrix": [0, 1]
     },
     "bootloader": "atmel-dfu",
     "build": {
@@ -34,7 +34,7 @@
     "layouts": {
       "LAYOUT": {
         "layout": [
-          { "x": 1.5,   "y": 0.25, "w": 1.5, "h": 1.5, "label": "", "matrix": [0, 2] },
+          { "x": 1.5,   "y": 0.25, "w": 1.5, "h": 1.5, "label": "", "matrix": [0, 1] },
           { "x": 4.25,  "y": 0,    "w": 1,   "h": 1,   "label": "", "matrix": [0, 4] },
           { "x": 5.25,  "y": 0,    "w": 1,   "h": 1,   "label": "", "matrix": [0, 5] },
           { "x": 6.5,   "y": 0,    "w": 1,   "h": 1,   "label": "", "matrix": [0, 6] },
@@ -201,20 +201,23 @@
       "rows": ["B0", "E5", "F2", "F3", "F4", "F5", "F6"]
     },
     "rgblight": {
-        "led_count": 153,
-        "pin": "E4",
-        "animations": {
-            "alternating": true,
-            "breathing": true,
-            "christmas": true,
-            "knight": true,
-            "rainbow_mood": true,
-            "rainbow_swirl": true,
-            "rgb_test": true,
-            "snake": true,
-            "static_gradient": true,
-            "twinkle": true
-        },
-        "max_brightness": 150
+      "animations": {
+        "alternating": true,
+        "breathing": true,
+        "christmas": true,
+        "knight": true,
+        "rainbow_mood": true,
+        "rainbow_swirl": true,
+        "rgb_test": true,
+        "snake": true,
+        "static_gradient": true,
+        "twinkle": true
+      },
+      "layers": {
+        "enabled": true
+      },
+      "led_count": 153,
+      "max_brightness": 150,
+      "pin": "E4"
     }
 }
