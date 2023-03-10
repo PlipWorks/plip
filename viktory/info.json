@@ -12,8 +12,7 @@
     },
     "processor": "at90usb646",
     "bootmagic": {
-      "enabled": true,
-      "matrix": [0, 1]
+      "enabled": false
     },
     "bootloader": "atmel-dfu",
     "build": {
