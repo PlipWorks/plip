@@ -16,3 +16,8 @@
 #pragma once
 
 // #include "config_common.h"
+
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_TWINKLE + 2
+#define RGBLIGHT_DEFAULT_HUE 190
+#define RGBLIGHT_DEFAULT_SAT 255
+#define RGBLIGHT_DEFAULT_VAL 150
