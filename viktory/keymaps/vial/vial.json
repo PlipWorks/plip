@@ -2,7 +2,7 @@
   "name": "Viktory",
   "vendorId": "0x5057",
   "productId": "0x7674",
-  "lighting": "vialrgb",
+  "lighting": "qmk_rgblight",
   "matrix": {
       "rows": 7,
       "cols": 27
