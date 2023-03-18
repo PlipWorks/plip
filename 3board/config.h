@@ -19,7 +19,7 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x5057
-#define PRODUCT_ID      0x3342
+#define PRODUCT_ID      0x3362
 #define DEVICE_VER		0x0000
 #define MANUFACTURER    PLIP Works
 #define PRODUCT         3board

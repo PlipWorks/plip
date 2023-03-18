@@ -19,8 +19,8 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x5057
-#define PRODUCT_ID      0x776C
-#define DEVICE_VER		  0x0000
+#define PRODUCT_ID      0x574C
+#define DEVICE_VER		0x0000
 #define MANUFACTURER    PLIP Works
 #define PRODUCT         Wide Load
 

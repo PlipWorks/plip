@@ -19,8 +19,8 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x5057
-#define PRODUCT_ID      0x0501
-#define DEVICE_VER		  0x0000
+#define PRODUCT_ID      0x414F
+#define DEVICE_VER		0x0000
 #define MANUFACTURER    PLIP Works
 #define PRODUCT         Adélie Ortho
 #define DESCRIPTION     Adélie Ortho

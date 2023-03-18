@@ -1,5 +1,5 @@
 # MCU name
-MCU = at90usb646
+# MCU = at90usb646
 
 # Bootloader selection
 #   Teensy       halfkay
@@ -9,12 +9,17 @@ MCU = at90usb646
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = atmel-dfu
+# BOOTLOADER = atmel-dfu
 
-BOOTMAGIC_ENABLE = yes
 MOUSEKEY_ENABLE = yes
-EXTRAKEY_ENABLE 	= yes
-NKRO_ENABLE 		= yes
-COMBO_ENABLE = no
+EXTRAKEY_ENABLE = yes
+CONSOLE_ENABLE = no
+COMMAND_ENABLE = no
+# NKRO_ENABLE = yes
+BACKLIGHT_ENABLE = no
 RGBLIGHT_ENABLE = no
-ENCODER_ENABLE = yes
+MIDI_ENABLE = no
+BLUETOOTH_ENABLE = no
+AUDIO_ENABLE = no
+
+ENCODER_MAP_ENABLE = yes

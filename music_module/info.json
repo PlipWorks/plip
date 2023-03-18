@@ -5,7 +5,7 @@
   "maintainer": "PlipWorks",
   "usb": {
     "vid": "0x5057",
-    "pid": "0x6262",
+    "pid": "0x4D4D",
     "device_version": "1.0.0"
   },
   "debounce": 5,
