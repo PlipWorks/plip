@@ -18,12 +18,26 @@
 enum layer_names { _BASE, _FIRST };
 
 const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {95, 1, HSV_GREEN}
+    {95, 1, HSV_BLUE}, //capslock
+	{70, 10, HSV_BLUE}, //alphas
+	{96, 9, HSV_BLUE},
+	{118, 7, HSV_BLUE}
 );
 
 const rgblight_segment_t PROGMEM my_numlock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {36, 1, HSV_GREEN},
-    {59, 1, HSV_GREEN}
+    {36, 1, HSV_BLUE}, //left numlock
+	{37, 3, HSV_BLUE}, //left numpad
+	{63, 4, HSV_BLUE},
+	{90, 3, HSV_BLUE},
+	{111, 4, HSV_BLUE},
+	{134, 2, HSV_BLUE},
+
+    {59, 1, HSV_BLUE}, //right numlock
+	{60, 3, HSV_BLUE}, //right numpad
+	{86, 4, HSV_BLUE},
+	{108, 3, HSV_BLUE},
+	{130, 4, HSV_BLUE},
+	{149, 2, HSV_BLUE}
 );
 
 const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
