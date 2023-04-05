@@ -19,9 +19,9 @@ enum layer_names { _BASE, _FIRST };
 
 const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {95, 1, HSV_BLUE}, //capslock
-	{67, 10, HSV_BLUE}, //alphas
+	{73, 10, HSV_BLUE}, //alphas
 	{96, 9, HSV_BLUE},
-	{116, 7, HSV_BLUE}
+	{120, 7, HSV_BLUE}
 );
 
 const rgblight_segment_t PROGMEM my_numlock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
