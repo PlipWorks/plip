@@ -6,7 +6,7 @@
   "matrix": { "rows": 5, "cols": 24 },
   "layouts": {
     "labels": [
-      "Unified Spacebar",
+      "Split Spacebar",
       "Split Numpad 0",
       "Split Numpad + and Enter"
     ],
