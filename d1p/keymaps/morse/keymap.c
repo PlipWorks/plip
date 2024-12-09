@@ -107,16 +107,16 @@ void matrix_scan_user(void) {
           break;
         case 1:
           if (visible_active) {
-            tap_code(KC_BSPACE);
+            tap_code(KC_BSPC);
             SEND_STRING("-");
           }
           break;
         case 2:
           if (visible_active) {
-            tap_code(KC_BSPACE);
+            tap_code(KC_BSPC);
             seq_taps--;
             for (int i = 0; i < seq_taps; i++) {
-              tap_code(KC_BSPACE);
+              tap_code(KC_BSPC);
             }
           }
           repeat_seq = true;
@@ -134,7 +134,7 @@ void matrix_scan_user(void) {
     if (read_seq && timer_elapsed(seq_timer) > wait_seq) {
       if (visible_active) {
         for (int i = 0; i < seq_taps; i++) {
-          tap_code(KC_BSPACE);
+          tap_code(KC_BSPC);
         }
       }
 
@@ -200,145 +200,145 @@ void morseToKC(char morse[]) {
 
   //math + coding symbols
   //////////////////////////////////////////////////////////////////////////////
-  else if(strcmp(morse, "-...-") == 0) {tap_code(KC_EQUAL);}
+  else if(strcmp(morse, "-...-") == 0) {tap_code(KC_EQL);}
   else if(strcmp(morse, "-.--.") == 0) { //+
-    register_code(KC_LSHIFT);
+    register_code(KC_LSFT);
     tap_code(KC_EQUAL);
-    unregister_code(KC_LSHIFT);
+    unregister_code(KC_LSFT);
   }
-  else if(strcmp(morse, "-.---") == 0) {tap_code(KC_MINUS);}
+  else if(strcmp(morse, "-.---") == 0) {tap_code(KC_MINS);}
   else if(strcmp(morse, ".-.--") == 0) { //*
-    register_code(KC_LSHIFT);
+    register_code(KC_LSFT);
     tap_code(KC_8);
-    unregister_code(KC_LSHIFT);
+    unregister_code(KC_LSFT);
   }
-  else if(strcmp(morse, ".-..-") == 0) {tap_code(KC_SLASH);}
-  else if(strcmp(morse, "--.--") == 0) {tap_code(KC_BSLASH);}
+  else if(strcmp(morse, ".-..-") == 0) {tap_code(KC_SLSH);}
+  else if(strcmp(morse, "--.--") == 0) {tap_code(KC_BSLS);}
   else if(strcmp(morse, "---.-") == 0) { //|
-    register_code(KC_LSHIFT);
-    tap_code(KC_BSLASH);
-    unregister_code(KC_LSHIFT);
+    register_code(KC_LSFT);
+    tap_code(KC_BSLS);
+    unregister_code(KC_LSFT);
   }
   else if(strcmp(morse, ".--..") == 0) { //(
-    register_code(KC_LSHIFT);
+    register_code(KC_LSFT);
     tap_code(KC_9);
-    unregister_code(KC_LSHIFT);
+    unregister_code(KC_LSFT);
   }
   else if(strcmp(morse, ".--.-") == 0) { //)
-    register_code(KC_LSHIFT);
+    register_code(KC_LSFT);
     tap_code(KC_0);
-    unregister_code(KC_LSHIFT);
+    unregister_code(KC_LSFT);
   }
   else if(strcmp(morse, "--.-.") == 0) { //{
-    register_code(KC_LSHIFT);
-    tap_code(KC_LBRACKET);
-    unregister_code(KC_LSHIFT);
+    register_code(KC_LSFT);
+    tap_code(KC_LBRC);
+    unregister_code(KC_LSFT);
   }
   else if(strcmp(morse, "--..-") == 0) { //}
-    register_code(KC_LSHIFT);
-    tap_code(KC_RBRACKET);
-    unregister_code(KC_LSHIFT);
+    register_code(KC_LSFT);
+    tap_code(KC_RBRC);
+    unregister_code(KC_LSFT);
   }
-  else if(strcmp(morse, "-..-.") == 0) {tap_code(KC_LBRACKET);}
-  else if(strcmp(morse, "-..--") == 0) {tap_code(KC_RBRACKET);}
+  else if(strcmp(morse, "-..-.") == 0) {tap_code(KC_LBRC);}
+  else if(strcmp(morse, "-..--") == 0) {tap_code(KC_RBRC);}
 
   //punctuation
   //////////////////////////////////////////////////////////////////////////////
   else if(strcmp(morse, ".-.-.-") == 0) {tap_code(KC_DOT);}
-  else if(strcmp(morse, "--..--") == 0) {tap_code(KC_COMMA);}
+  else if(strcmp(morse, "--..--") == 0) {tap_code(KC_COMM);}
   else if(strcmp(morse, "---...") == 0) { //:
-    register_code(KC_LSHIFT);
-    tap_code(KC_SCOLON);
-    unregister_code(KC_LSHIFT);
+    register_code(KC_LSFT);
+    tap_code(KC_SCLN);
+    unregister_code(KC_LSFT);
   }
-  else if(strcmp(morse, "..-.-") == 0) {tap_code(KC_SCOLON);}
+  else if(strcmp(morse, "..-.-") == 0) {tap_code(KC_SCLN);}
   else if(strcmp(morse, "..--..") == 0) { //?
-    register_code(KC_LSHIFT);
+    register_code(KC_LSFT);
     tap_code(KC_SLASH);
-    unregister_code(KC_LSHIFT);
+    unregister_code(KC_LSFT);
   }
   else if(strcmp(morse, "..--.") == 0) { //!
-    register_code(KC_LSHIFT);
+    register_code(KC_LSFT);
     tap_code(KC_1);
-    unregister_code(KC_LSHIFT);
+    unregister_code(KC_LSFT);
   }
   else if(strcmp(morse, ".-..-.") == 0) { //"
-    register_code(KC_LSHIFT);
-    tap_code(KC_QUOTE);
-    unregister_code(KC_LSHIFT);
+    register_code(KC_LSFT);
+    tap_code(KC_QUOT);
+    unregister_code(KC_LSFT);
   }
-  else if(strcmp(morse, ".----.") == 0) {tap_code(KC_QUOTE);}
+  else if(strcmp(morse, ".----.") == 0) {tap_code(KC_QUOT);}
 
   //arrow keys
   //////////////////////////////////////////////////////////////////////////////
   else if(strcmp(morse, "..-..") == 0) {tap_code(KC_UP);}
   else if(strcmp(morse, ".-...") == 0) {tap_code(KC_LEFT);}
   else if(strcmp(morse, ".-.-.") == 0) {tap_code(KC_DOWN);}
-  else if(strcmp(morse, "...-.") == 0) {tap_code(KC_RIGHT);}
+  else if(strcmp(morse, "...-.") == 0) {tap_code(KC_RGHT);}
 
   //macros
   else if(strcmp(morse, "-.....") == 0) { //copy ctrl-c
-    register_code(KC_LCTRL);
+    register_code(KC_LCTL);
     tap_code(KC_C);
-    unregister_code(KC_LCTRL);
+    unregister_code(KC_LCTL);
   }
   else if(strcmp(morse, ".-....") == 0) { //cut ctrl-x
-    register_code(KC_LCTRL);
+    register_code(KC_LCTL);
     tap_code(KC_X);
-    unregister_code(KC_LCTRL);
+    unregister_code(KC_LCTL);
   }
   else if(strcmp(morse, "..-...") == 0) { //paste ctrl-v
-    register_code(KC_LCTRL);
+    register_code(KC_LCTL);
     tap_code(KC_V);
-    unregister_code(KC_LCTRL);
+    unregister_code(KC_LCTL);
   }
   else if(strcmp(morse, "...-..") == 0) { //undo ctrl-z
-    register_code(KC_LCTRL);
+    register_code(KC_LCTL);
     tap_code(KC_Z);
-    unregister_code(KC_LCTRL);
+    unregister_code(KC_LCTL);
   }
   else if(strcmp(morse, "....-.") == 0) { //redo ctrl-y
-    register_code(KC_LCTRL);
+    register_code(KC_LCTL);
     tap_code(KC_Y);
-    unregister_code(KC_LCTRL);
+    unregister_code(KC_LCTL);
   }
   else if(strcmp(morse, ".....-") == 0) { //save ctrl-s
-    register_code(KC_LCTRL);
+    register_code(KC_LCTL);
     tap_code(KC_S);
-    unregister_code(KC_LCTRL);
+    unregister_code(KC_LCTL);
   }
 
   //other
   //////////////////////////////////////////////////////////////////////////////
-  else if(strcmp(morse, ".-.-") == 0) {tap_code(KC_ESCAPE);}
-  else if(strcmp(morse, "---.") == 0) {tap_code(KC_SPACE);}
-  else if(strcmp(morse, "----") == 0) {tap_code(KC_BSPACE);}
-  else if(strcmp(morse, ".---.") == 0) {tap_code(KC_ENTER);}
+  else if(strcmp(morse, ".-.-") == 0) {tap_code(KC_ESC);}
+  else if(strcmp(morse, "---.") == 0) {tap_code(KC_SPC);}
+  else if(strcmp(morse, "----") == 0) {tap_code(KC_BSPC);}
+  else if(strcmp(morse, ".---.") == 0) {tap_code(KC_ENT);}
   else if(strcmp(morse, "....--") == 0) {tap_code(KC_DEL);}
 
   //toggles
   //////////////////////////////////////////////////////////////////////////////
   else if(strcmp(morse, "..--") == 0) { //toggle shift
     if (shift_active) {
-      unregister_code(KC_RSHIFT);
+      unregister_code(KC_LSFT);
     } else {
-      register_code(KC_RSHIFT);
+      register_code(KC_LSFT);
     }
     shift_active = !shift_active;
   }
   else if(strcmp(morse, "-.-..") == 0) { //toggle ctrl
     if (ctrl_active) {
-      unregister_code(KC_RCTRL);
+      unregister_code(KC_LCTL);
     } else {
-      register_code(KC_RCTRL);
+      register_code(KC_LCTL);
     }
     ctrl_active = !ctrl_active;
   }
   else if(strcmp(morse, "-.-.-") == 0) { //toggle alt
     if (alt_active) {
-      unregister_code(KC_RALT);
+      unregister_code(KC_LALT);
     } else {
-      register_code(KC_RALT);
+      register_code(KC_LALT);
     }
     alt_active = !alt_active;
   }
